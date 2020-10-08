@@ -1,0 +1,90 @@
+/*------------- general style ------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  border-radius: 10px;
+  border: 2px solid #263238;
+  color:  #263238;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+
+/*------------- style's header ------------*/
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 15px;
+  align-items: center;
+
+}
+
+#imageWalle {
+  height: 40px;
+  width: 80px;
+}
+
+#login{
+  background-color: #f4f4f4;
+  margin: 25% 0px;
+}
+
+#register {
+  background-color: #f0a500;
+  margin: 25% 0px;
+}
+
+/*------------- style's main ------------*/
+
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 340px;
+  width: 100%;
+  position: relative;
+}
+
+main div {
+  width: 75%;
+}
+
+h1 {
+  font-size: 68px;
+  color:#f0a500;
+  padding: 20px 40px;
+  -webkit-text-stroke: 3px #263238;
+  margin-top: 120px;
+}
+
+#description {
+  padding: 0px 40px;
+}
+
+#Main__register {
+  background-color: #f0a500;
+  margin: 25% 0px;
+  width: 25%;
+  height: 50px;
+  font-size: 30px;
+}
+
+/*------------- style's nav ------------*/
+
+nav {
+  border: 1px red solid;
+  height: 120px;
+}
+
+nav h2 {
+  
+}
